@@ -1,0 +1,513 @@
+
+========== CONCERT TICKET BOOKING SYSTEM ==========
+  1. View Concerts           7. Undo Last Cancellation
+  2. Search Concert          8. View Booking History
+  3. Add Concert             9. Show Waiting List
+  4. Sort Concerts          10. Route Information
+  5. Book Ticket            11. Exit
+  6. Cancel Ticket
+Enter choice: 
+  ALL CONCERTS (in-order traversal of BST = sorted by ID)
+  ID    Name                    City        Date        Price   Sold  Free  Waiting
+  --------------------------------------------------------------------------------
+  101   Indie Unplugged         Pune        15-12-2026  800     6     0     2  SOLD OUT
+  102   Electro Beach Fest      Mumbai      05-12-2026  3000    3     21    0
+  103   Sufi Evening            Lucknow     25-01-2027  1200    0     15    0
+  104   Melody Night            Delhi       20-12-2026  2500    2     38    0
+  105   Bollywood Beats         Jaipur      30-12-2026  1500    1     19    0
+  106   Fusion Studio Night     Bengaluru   10-01-2027  1800    0     30    0
+  107   Rock the Fort           Agra        14-02-2027  2000    0     18    0
+
+  Enter a Concert ID to see its seat map (0 = back): 
+          STAGE
+       S1  S2  S3 
+  R1   [X] [X] [X]
+  R2   [X] [X] [X]
+  [ ] free  [X] booked   (0 of 6 seats free)
+
+========== CONCERT TICKET BOOKING SYSTEM ==========
+  1. View Concerts           7. Undo Last Cancellation
+  2. Search Concert          8. View Booking History
+  3. Add Concert             9. Show Waiting List
+  4. Sort Concerts          10. Route Information
+  5. Book Ticket            11. Exit
+  6. Cancel Ticket
+Enter choice: 
+  1. By ID   (BST search)
+  2. By name (linear search)
+  3. By ID   (binary search on sorted array)
+  Choice:   Enter Concert ID:   ID    Name                    City        Date        Price   Sold  Free  Waiting
+  --------------------------------------------------------------------------------
+  103   Sufi Evening            Lucknow     25-01-2027  1200    0     15    0
+
+========== CONCERT TICKET BOOKING SYSTEM ==========
+  1. View Concerts           7. Undo Last Cancellation
+  2. Search Concert          8. View Booking History
+  3. Add Concert             9. Show Waiting List
+  4. Sort Concerts          10. Route Information
+  5. Book Ticket            11. Exit
+  6. Cancel Ticket
+Enter choice: 
+  1. By ID   (BST search)
+  2. By name (linear search)
+  3. By ID   (binary search on sorted array)
+  Choice:   Enter name (or part of it):   ID    Name                    City        Date        Price   Sold  Free  Waiting
+  --------------------------------------------------------------------------------
+  104   Melody Night            Delhi       20-12-2026  2500    2     38    0
+  106   Fusion Studio Night     Bengaluru   10-01-2027  1800    0     30    0
+
+========== CONCERT TICKET BOOKING SYSTEM ==========
+  1. View Concerts           7. Undo Last Cancellation
+  2. Search Concert          8. View Booking History
+  3. Add Concert             9. Show Waiting List
+  4. Sort Concerts          10. Route Information
+  5. Book Ticket            11. Exit
+  6. Cancel Ticket
+Enter choice: 
+  1. By ID   (BST search)
+  2. By name (linear search)
+  3. By ID   (binary search on sorted array)
+  Choice:   Enter Concert ID:   Found at index 5 of the sorted array.
+  ID    Name                    City        Date        Price   Sold  Free  Waiting
+  --------------------------------------------------------------------------------
+  106   Fusion Studio Night     Bengaluru   10-01-2027  1800    0     30    0
+
+========== CONCERT TICKET BOOKING SYSTEM ==========
+  1. View Concerts           7. Undo Last Cancellation
+  2. Search Concert          8. View Booking History
+  3. Add Concert             9. Show Waiting List
+  4. Sort Concerts          10. Route Information
+  5. Book Ticket            11. Exit
+  6. Cancel Ticket
+Enter choice: 
+  1. By ID   (BST search)
+  2. By name (linear search)
+  3. By ID   (binary search on sorted array)
+  Choice:   Enter Concert ID:   Concert not found.
+
+========== CONCERT TICKET BOOKING SYSTEM ==========
+  1. View Concerts           7. Undo Last Cancellation
+  2. Search Concert          8. View Booking History
+  3. Add Concert             9. Show Waiting List
+  4. Sort Concerts          10. Route Information
+  5. Book Ticket            11. Exit
+  6. Cancel Ticket
+Enter choice:   New Concert ID (1-9999):   A concert with ID 104 already exists.
+
+========== CONCERT TICKET BOOKING SYSTEM ==========
+  1. View Concerts           7. Undo Last Cancellation
+  2. Search Concert          8. View Booking History
+  3. Add Concert             9. Show Waiting List
+  4. Sort Concerts          10. Route Information
+  5. Book Ticket            11. Exit
+  6. Cancel Ticket
+Enter choice:   New Concert ID (1-9999):   Concert name: 
+  Cities and direct roads:
+  1. Delhi  ->  Jaipur (280 km)  Agra (230 km)  Lucknow (600 km)  Chandigarh (245 km)  
+  2. Jaipur  ->  Delhi (280 km)  Agra (240 km)  Mumbai (1150 km)  
+  3. Agra  ->  Delhi (230 km)  Jaipur (240 km)  Lucknow (335 km)  
+  4. Lucknow  ->  Delhi (600 km)  Agra (335 km)  
+  5. Chandigarh  ->  Delhi (245 km)  
+  6. Mumbai  ->  Jaipur (1150 km)  Pune (150 km)  Bengaluru (1000 km)  
+  7. Pune  ->  Mumbai (150 km)  Bengaluru (840 km)  
+  8. Bengaluru  ->  Mumbai (1000 km)  Pune (840 km)  
+  Choose city number:   Date (YYYYMMDD, e.g. 20261225):   That date does not exist.
+  Date (YYYYMMDD):   Ticket price (Rs):   Invalid input! Please enter a number.
+  Ticket price (Rs):   Rows of seats (max 5):   Too many rows! The seat array allows at most 5 rows x 8 seats.
+  Rows of seats (max 5):   Seats per row (max 8):   Too many seats per row! The seat array allows at most 5 rows x 8 seats.
+  Seats per row (max 8):   Concert added to the BST.
+
+========== CONCERT TICKET BOOKING SYSTEM ==========
+  1. View Concerts           7. Undo Last Cancellation
+  2. Search Concert          8. View Booking History
+  3. Add Concert             9. Show Waiting List
+  4. Sort Concerts          10. Route Information
+  5. Book Ticket            11. Exit
+  6. Cancel Ticket
+Enter choice: 
+  Sort by: 1. Price  2. Date  3. Popularity (tickets sold)
+  Choice:   Algorithm: 1. Bubble Sort  2. Merge Sort  3. Quick Sort
+  Choice: 
+  Concerts sorted by popularity using Quick Sort:
+  ID    Name                    City        Date        Price   Sold  Free  Waiting
+  --------------------------------------------------------------------------------
+  101   Indie Unplugged         Pune        15-12-2026  800     6     0     2  SOLD OUT
+  102   Electro Beach Fest      Mumbai      05-12-2026  3000    3     21    0
+  104   Melody Night            Delhi       20-12-2026  2500    2     38    0
+  105   Bollywood Beats         Jaipur      30-12-2026  1500    1     19    0
+  108   Jazz Under Stars        Chandigarh  11-11-2026  1500    0     6     0
+  103   Sufi Evening            Lucknow     25-01-2027  1200    0     15    0
+  106   Fusion Studio Night     Bengaluru   10-01-2027  1800    0     30    0
+  107   Rock the Fort           Agra        14-02-2027  2000    0     18    0
+
+========== CONCERT TICKET BOOKING SYSTEM ==========
+  1. View Concerts           7. Undo Last Cancellation
+  2. Search Concert          8. View Booking History
+  3. Add Concert             9. Show Waiting List
+  4. Sort Concerts          10. Route Information
+  5. Book Ticket            11. Exit
+  6. Cancel Ticket
+Enter choice: 
+  Sort by: 1. Price  2. Date  3. Popularity (tickets sold)
+  Choice:   Algorithm: 1. Bubble Sort  2. Merge Sort  3. Quick Sort
+  Choice: 
+  Concerts sorted by price using Bubble Sort:
+  ID    Name                    City        Date        Price   Sold  Free  Waiting
+  --------------------------------------------------------------------------------
+  101   Indie Unplugged         Pune        15-12-2026  800     6     0     2  SOLD OUT
+  103   Sufi Evening            Lucknow     25-01-2027  1200    0     15    0
+  105   Bollywood Beats         Jaipur      30-12-2026  1500    1     19    0
+  108   Jazz Under Stars        Chandigarh  11-11-2026  1500    0     6     0
+  106   Fusion Studio Night     Bengaluru   10-01-2027  1800    0     30    0
+  107   Rock the Fort           Agra        14-02-2027  2000    0     18    0
+  104   Melody Night            Delhi       20-12-2026  2500    2     38    0
+  102   Electro Beach Fest      Mumbai      05-12-2026  3000    3     21    0
+
+========== CONCERT TICKET BOOKING SYSTEM ==========
+  1. View Concerts           7. Undo Last Cancellation
+  2. Search Concert          8. View Booking History
+  3. Add Concert             9. Show Waiting List
+  4. Sort Concerts          10. Route Information
+  5. Book Ticket            11. Exit
+  6. Cancel Ticket
+Enter choice: 
+  Sort by: 1. Price  2. Date  3. Popularity (tickets sold)
+  Choice:   Algorithm: 1. Bubble Sort  2. Merge Sort  3. Quick Sort
+  Choice: 
+  Concerts sorted by date using Merge Sort:
+  ID    Name                    City        Date        Price   Sold  Free  Waiting
+  --------------------------------------------------------------------------------
+  108   Jazz Under Stars        Chandigarh  11-11-2026  1500    0     6     0
+  102   Electro Beach Fest      Mumbai      05-12-2026  3000    3     21    0
+  101   Indie Unplugged         Pune        15-12-2026  800     6     0     2  SOLD OUT
+  104   Melody Night            Delhi       20-12-2026  2500    2     38    0
+  105   Bollywood Beats         Jaipur      30-12-2026  1500    1     19    0
+  106   Fusion Studio Night     Bengaluru   10-01-2027  1800    0     30    0
+  103   Sufi Evening            Lucknow     25-01-2027  1200    0     15    0
+  107   Rock the Fort           Agra        14-02-2027  2000    0     18    0
+
+========== CONCERT TICKET BOOKING SYSTEM ==========
+  1. View Concerts           7. Undo Last Cancellation
+  2. Search Concert          8. View Booking History
+  3. Add Concert             9. Show Waiting List
+  4. Sort Concerts          10. Route Information
+  5. Book Ticket            11. Exit
+  6. Cancel Ticket
+Enter choice:   Users: 1-Aarav  2-Diya  3-Kabir  4-Meera  5-Rohan  
+  Enter User ID:   User not found.
+
+========== CONCERT TICKET BOOKING SYSTEM ==========
+  1. View Concerts           7. Undo Last Cancellation
+  2. Search Concert          8. View Booking History
+  3. Add Concert             9. Show Waiting List
+  4. Sort Concerts          10. Route Information
+  5. Book Ticket            11. Exit
+  6. Cancel Ticket
+Enter choice:   Users: 1-Aarav  2-Diya  3-Kabir  4-Meera  5-Rohan  
+  Enter User ID:   Enter Concert ID:   Sorry, "Indie Unplugged" is SOLD OUT.
+  Join the waiting list? (1 = Yes, 0 = No):   Aarav added to the waiting list at position 3.
+
+========== CONCERT TICKET BOOKING SYSTEM ==========
+  1. View Concerts           7. Undo Last Cancellation
+  2. Search Concert          8. View Booking History
+  3. Add Concert             9. Show Waiting List
+  4. Sort Concerts          10. Route Information
+  5. Book Ticket            11. Exit
+  6. Cancel Ticket
+Enter choice:   Users: 1-Aarav  2-Diya  3-Kabir  4-Meera  5-Rohan  
+  Enter User ID:   Enter Concert ID:   Sorry, "Indie Unplugged" is SOLD OUT.
+  Join the waiting list? (1 = Yes, 0 = No):   Diya added to the waiting list at position 4.
+
+========== CONCERT TICKET BOOKING SYSTEM ==========
+  1. View Concerts           7. Undo Last Cancellation
+  2. Search Concert          8. View Booking History
+  3. Add Concert             9. Show Waiting List
+  4. Sort Concerts          10. Route Information
+  5. Book Ticket            11. Exit
+  6. Cancel Ticket
+Enter choice:   Users: 1-Aarav  2-Diya  3-Kabir  4-Meera  5-Rohan  
+  Enter User ID:   Enter Concert ID:   Sorry, "Indie Unplugged" is SOLD OUT.
+  Join the waiting list? (1 = Yes, 0 = No):   Kabir added to the waiting list at position 5.
+
+========== CONCERT TICKET BOOKING SYSTEM ==========
+  1. View Concerts           7. Undo Last Cancellation
+  2. Search Concert          8. View Booking History
+  3. Add Concert             9. Show Waiting List
+  4. Sort Concerts          10. Route Information
+  5. Book Ticket            11. Exit
+  6. Cancel Ticket
+Enter choice:   Users: 1-Aarav  2-Diya  3-Kabir  4-Meera  5-Rohan  
+  Enter User ID:   Enter Concert ID:   Sorry, "Indie Unplugged" is SOLD OUT.
+  Waiting list full. Please try another concert.
+
+========== CONCERT TICKET BOOKING SYSTEM ==========
+  1. View Concerts           7. Undo Last Cancellation
+  2. Search Concert          8. View Booking History
+  3. Add Concert             9. Show Waiting List
+  4. Sort Concerts          10. Route Information
+  5. Book Ticket            11. Exit
+  6. Cancel Ticket
+Enter choice:   Users: 1-Aarav  2-Diya  3-Kabir  4-Meera  5-Rohan  
+  Enter User ID:   Enter Concert ID: 
+          STAGE
+       S1  S2  S3  S4  S5  S6  S7  S8 
+  R1   [X] [X] [ ] [ ] [ ] [ ] [ ] [ ]
+  R2   [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+  R3   [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+  R4   [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+  R5   [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+  [ ] free  [X] booked   (38 of 40 seats free)
+  Row number:   Seat number:   Seat R1-S1 is already booked. Choose another.
+  Row number:   Seat number:   Booking confirmed! Booking ID 1013, seat R2-S2, price Rs 2500.
+
+========== CONCERT TICKET BOOKING SYSTEM ==========
+  1. View Concerts           7. Undo Last Cancellation
+  2. Search Concert          8. View Booking History
+  3. Add Concert             9. Show Waiting List
+  4. Sort Concerts          10. Route Information
+  5. Book Ticket            11. Exit
+  6. Cancel Ticket
+Enter choice:   Enter Booking ID:   Invalid Booking ID.
+
+========== CONCERT TICKET BOOKING SYSTEM ==========
+  1. View Concerts           7. Undo Last Cancellation
+  2. Search Concert          8. View Booking History
+  3. Add Concert             9. Show Waiting List
+  4. Sort Concerts          10. Route Information
+  5. Book Ticket            11. Exit
+  6. Cancel Ticket
+Enter choice:   Enter Booking ID:   Booking 1001 cancelled. Seat R1-S1 is free.
+  Seat given to Meera (User 4) from the waiting list. New Booking ID 1014.
+
+========== CONCERT TICKET BOOKING SYSTEM ==========
+  1. View Concerts           7. Undo Last Cancellation
+  2. Search Concert          8. View Booking History
+  3. Add Concert             9. Show Waiting List
+  4. Sort Concerts          10. Route Information
+  5. Book Ticket            11. Exit
+  6. Cancel Ticket
+Enter choice:   Enter Booking ID:   Booking 1001 is already cancelled.
+
+========== CONCERT TICKET BOOKING SYSTEM ==========
+  1. View Concerts           7. Undo Last Cancellation
+  2. Search Concert          8. View Booking History
+  3. Add Concert             9. Show Waiting List
+  4. Sort Concerts          10. Route Information
+  5. Book Ticket            11. Exit
+  6. Cancel Ticket
+Enter choice:   Cannot undo booking 1001: seat R1-S1 has already been booked by someone else.
+
+========== CONCERT TICKET BOOKING SYSTEM ==========
+  1. View Concerts           7. Undo Last Cancellation
+  2. Search Concert          8. View Booking History
+  3. Add Concert             9. Show Waiting List
+  4. Sort Concerts          10. Route Information
+  5. Book Ticket            11. Exit
+  6. Cancel Ticket
+Enter choice:   Enter Booking ID:   Booking 1013 cancelled. Seat R2-S2 is free.
+
+========== CONCERT TICKET BOOKING SYSTEM ==========
+  1. View Concerts           7. Undo Last Cancellation
+  2. Search Concert          8. View Booking History
+  3. Add Concert             9. Show Waiting List
+  4. Sort Concerts          10. Route Information
+  5. Book Ticket            11. Exit
+  6. Cancel Ticket
+Enter choice:   Undo done: booking 1013 is active again (seat R2-S2).
+
+========== CONCERT TICKET BOOKING SYSTEM ==========
+  1. View Concerts           7. Undo Last Cancellation
+  2. Search Concert          8. View Booking History
+  3. Add Concert             9. Show Waiting List
+  4. Sort Concerts          10. Route Information
+  5. Book Ticket            11. Exit
+  6. Cancel Ticket
+Enter choice:   Nothing to undo.
+
+========== CONCERT TICKET BOOKING SYSTEM ==========
+  1. View Concerts           7. Undo Last Cancellation
+  2. Search Concert          8. View Booking History
+  3. Add Concert             9. Show Waiting List
+  4. Sort Concerts          10. Route Information
+  5. Book Ticket            11. Exit
+  6. Cancel Ticket
+Enter choice:   Users: 1-Aarav  2-Diya  3-Kabir  4-Meera  5-Rohan  
+  Enter User ID: 
+  Booking history of Aarav:
+  BkID    User   ConID  Concert                 Seat     Status
+  --------------------------------------------------------------
+  1001    1      101    Indie Unplugged         R1-S1    Cancelled
+  1004    1      101    Indie Unplugged         R2-S1    Booked
+  1007    1      104    Melody Night            R1-S1    Booked
+
+========== CONCERT TICKET BOOKING SYSTEM ==========
+  1. View Concerts           7. Undo Last Cancellation
+  2. Search Concert          8. View Booking History
+  3. Add Concert             9. Show Waiting List
+  4. Sort Concerts          10. Route Information
+  5. Book Ticket            11. Exit
+  6. Cancel Ticket
+Enter choice:   Users: 1-Aarav  2-Diya  3-Kabir  4-Meera  5-Rohan  
+  Enter User ID: 
+  Booking history of Meera:
+  BkID    User   ConID  Concert                 Seat     Status
+  --------------------------------------------------------------
+  1008    4      104    Melody Night            R1-S2    Booked
+  1012    4      105    Bollywood Beats         R3-S2    Booked
+  1014    4      101    Indie Unplugged         R1-S1    Booked
+
+========== CONCERT TICKET BOOKING SYSTEM ==========
+  1. View Concerts           7. Undo Last Cancellation
+  2. Search Concert          8. View Booking History
+  3. Add Concert             9. Show Waiting List
+  4. Sort Concerts          10. Route Information
+  5. Book Ticket            11. Exit
+  6. Cancel Ticket
+Enter choice:   Enter Concert ID: 
+  Waiting list for "Indie Unplugged":
+  (front index = 1, rear index = 4, 4/5 used)
+  Position 1: User 5   [array slot 1]
+  Position 2: User 1   [array slot 2]
+  Position 3: User 2   [array slot 3]
+  Position 4: User 3   [array slot 4]
+
+========== CONCERT TICKET BOOKING SYSTEM ==========
+  1. View Concerts           7. Undo Last Cancellation
+  2. Search Concert          8. View Booking History
+  3. Add Concert             9. Show Waiting List
+  4. Sort Concerts          10. Route Information
+  5. Book Ticket            11. Exit
+  6. Cancel Ticket
+Enter choice: 
+  Cities and direct roads:
+  1. Delhi  ->  Jaipur (280 km)  Agra (230 km)  Lucknow (600 km)  Chandigarh (245 km)  
+  2. Jaipur  ->  Delhi (280 km)  Agra (240 km)  Mumbai (1150 km)  
+  3. Agra  ->  Delhi (230 km)  Jaipur (240 km)  Lucknow (335 km)  
+  4. Lucknow  ->  Delhi (600 km)  Agra (335 km)  
+  5. Chandigarh  ->  Delhi (245 km)  
+  6. Mumbai  ->  Jaipur (1150 km)  Pune (150 km)  Bengaluru (1000 km)  
+  7. Pune  ->  Mumbai (150 km)  Bengaluru (840 km)  
+  8. Bengaluru  ->  Mumbai (1000 km)  Pune (840 km)  
+
+  1. BFS traversal  2. DFS traversal  3. Shortest route (Dijkstra)
+  4. Fewest stops (BFS)  0. Back
+  Choice:   Source city number:   Destination city number: 
+  Shortest route: Delhi -> Jaipur -> Mumbai -> Pune -> Bengaluru
+  Total distance: 2420 km
+
+========== CONCERT TICKET BOOKING SYSTEM ==========
+  1. View Concerts           7. Undo Last Cancellation
+  2. Search Concert          8. View Booking History
+  3. Add Concert             9. Show Waiting List
+  4. Sort Concerts          10. Route Information
+  5. Book Ticket            11. Exit
+  6. Cancel Ticket
+Enter choice: 
+  Cities and direct roads:
+  1. Delhi  ->  Jaipur (280 km)  Agra (230 km)  Lucknow (600 km)  Chandigarh (245 km)  
+  2. Jaipur  ->  Delhi (280 km)  Agra (240 km)  Mumbai (1150 km)  
+  3. Agra  ->  Delhi (230 km)  Jaipur (240 km)  Lucknow (335 km)  
+  4. Lucknow  ->  Delhi (600 km)  Agra (335 km)  
+  5. Chandigarh  ->  Delhi (245 km)  
+  6. Mumbai  ->  Jaipur (1150 km)  Pune (150 km)  Bengaluru (1000 km)  
+  7. Pune  ->  Mumbai (150 km)  Bengaluru (840 km)  
+  8. Bengaluru  ->  Mumbai (1000 km)  Pune (840 km)  
+
+  1. BFS traversal  2. DFS traversal  3. Shortest route (Dijkstra)
+  4. Fewest stops (BFS)  0. Back
+  Choice:   Source city number: 
+  BFS order from Mumbai:
+  Mumbai  (0 road(s) away)
+  Jaipur  (1 road(s) away)
+  Pune  (1 road(s) away)
+  Bengaluru  (1 road(s) away)
+  Delhi  (2 road(s) away)
+  Agra  (2 road(s) away)
+  Lucknow  (3 road(s) away)
+  Chandigarh  (3 road(s) away)
+
+========== CONCERT TICKET BOOKING SYSTEM ==========
+  1. View Concerts           7. Undo Last Cancellation
+  2. Search Concert          8. View Booking History
+  3. Add Concert             9. Show Waiting List
+  4. Sort Concerts          10. Route Information
+  5. Book Ticket            11. Exit
+  6. Cancel Ticket
+Enter choice: 
+  Cities and direct roads:
+  1. Delhi  ->  Jaipur (280 km)  Agra (230 km)  Lucknow (600 km)  Chandigarh (245 km)  
+  2. Jaipur  ->  Delhi (280 km)  Agra (240 km)  Mumbai (1150 km)  
+  3. Agra  ->  Delhi (230 km)  Jaipur (240 km)  Lucknow (335 km)  
+  4. Lucknow  ->  Delhi (600 km)  Agra (335 km)  
+  5. Chandigarh  ->  Delhi (245 km)  
+  6. Mumbai  ->  Jaipur (1150 km)  Pune (150 km)  Bengaluru (1000 km)  
+  7. Pune  ->  Mumbai (150 km)  Bengaluru (840 km)  
+  8. Bengaluru  ->  Mumbai (1000 km)  Pune (840 km)  
+
+  1. BFS traversal  2. DFS traversal  3. Shortest route (Dijkstra)
+  4. Fewest stops (BFS)  0. Back
+  Choice:   Source city number: 
+  DFS order from Bengaluru:
+  Bengaluru  Mumbai  Jaipur  Delhi  Agra  Lucknow  Chandigarh  Pune  
+
+========== CONCERT TICKET BOOKING SYSTEM ==========
+  1. View Concerts           7. Undo Last Cancellation
+  2. Search Concert          8. View Booking History
+  3. Add Concert             9. Show Waiting List
+  4. Sort Concerts          10. Route Information
+  5. Book Ticket            11. Exit
+  6. Cancel Ticket
+Enter choice: 
+  Cities and direct roads:
+  1. Delhi  ->  Jaipur (280 km)  Agra (230 km)  Lucknow (600 km)  Chandigarh (245 km)  
+  2. Jaipur  ->  Delhi (280 km)  Agra (240 km)  Mumbai (1150 km)  
+  3. Agra  ->  Delhi (230 km)  Jaipur (240 km)  Lucknow (335 km)  
+  4. Lucknow  ->  Delhi (600 km)  Agra (335 km)  
+  5. Chandigarh  ->  Delhi (245 km)  
+  6. Mumbai  ->  Jaipur (1150 km)  Pune (150 km)  Bengaluru (1000 km)  
+  7. Pune  ->  Mumbai (150 km)  Bengaluru (840 km)  
+  8. Bengaluru  ->  Mumbai (1000 km)  Pune (840 km)  
+
+  1. BFS traversal  2. DFS traversal  3. Shortest route (Dijkstra)
+  4. Fewest stops (BFS)  0. Back
+  Choice:   Source city number:   Destination city number: 
+  Fewest-stops route: Delhi -> Lucknow
+  Number of stops: 1 road(s)
+  Total distance: 600 km
+
+========== CONCERT TICKET BOOKING SYSTEM ==========
+  1. View Concerts           7. Undo Last Cancellation
+  2. Search Concert          8. View Booking History
+  3. Add Concert             9. Show Waiting List
+  4. Sort Concerts          10. Route Information
+  5. Book Ticket            11. Exit
+  6. Cancel Ticket
+Enter choice: 
+  Cities and direct roads:
+  1. Delhi  ->  Jaipur (280 km)  Agra (230 km)  Lucknow (600 km)  Chandigarh (245 km)  
+  2. Jaipur  ->  Delhi (280 km)  Agra (240 km)  Mumbai (1150 km)  
+  3. Agra  ->  Delhi (230 km)  Jaipur (240 km)  Lucknow (335 km)  
+  4. Lucknow  ->  Delhi (600 km)  Agra (335 km)  
+  5. Chandigarh  ->  Delhi (245 km)  
+  6. Mumbai  ->  Jaipur (1150 km)  Pune (150 km)  Bengaluru (1000 km)  
+  7. Pune  ->  Mumbai (150 km)  Bengaluru (840 km)  
+  8. Bengaluru  ->  Mumbai (1000 km)  Pune (840 km)  
+
+  1. BFS traversal  2. DFS traversal  3. Shortest route (Dijkstra)
+  4. Fewest stops (BFS)  0. Back
+  Choice:   Source city number:   Destination city number: 
+  Shortest route: Delhi -> Agra -> Lucknow
+  Total distance: 565 km
+
+========== CONCERT TICKET BOOKING SYSTEM ==========
+  1. View Concerts           7. Undo Last Cancellation
+  2. Search Concert          8. View Booking History
+  3. Add Concert             9. Show Waiting List
+  4. Sort Concerts          10. Route Information
+  5. Book Ticket            11. Exit
+  6. Cancel Ticket
+Enter choice:   Invalid input! Please enter a number.
+Enter choice:   Please enter a number between 1 and 11.
+Enter choice:   Please enter a number between 1 and 11.
+Enter choice: 
+Thank you for using the system!
